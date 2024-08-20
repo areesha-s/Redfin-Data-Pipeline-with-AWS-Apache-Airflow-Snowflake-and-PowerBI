@@ -1,0 +1,5 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host redfin-aws-airflow
+    HostName <aws ec2 ip address >
+    User ubuntu
+    IdentityFile C:\Users\user\Downloads\remote\redfin-aws-airflow.pem <pem file path> 
